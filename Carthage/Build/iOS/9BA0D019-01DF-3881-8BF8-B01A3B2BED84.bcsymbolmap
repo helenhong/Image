@@ -1,0 +1,582 @@
+BCSymbolMap Version: 2.0
+__ZNSt3__113unordered_mapIU8__strongP10objc_classlN2FB17AllocationTracker16ClassHashFunctorENS5_17ClassEqualFunctorENS_9allocatorINS_4pairIU8__strongKS2_lEEEEED1Ev
+__ZNSt3__16vectorIU8__strongP11objc_objectNS_9allocatorIS3_EEED1Ev
+__ZNSt3__113unordered_mapIU8__strongP10objc_classlN2FB17AllocationTracker16ClassHashFunctorENS5_17ClassEqualFunctorENS_9allocatorINS_4pairIU8__strongKS2_lEEEEED2Ev
+___clang_call_terminate
+__ZNSt3__14pairIU8__strongKP10objc_classlED1Ev
+__ZNSt3__14pairIU8__strongKP10objc_classlED2Ev
+__ZNSt3__16vectorIU8__strongP11objc_objectNS_9allocatorIS3_EEED2Ev
+__ZNK2FB17AllocationTracker16ClassHashFunctorclEP10objc_class
+__ZNK2FB17AllocationTracker17ClassEqualFunctorclEP10objc_classS3_
+__ZNSt3__14pairIU8__strongKP10objc_classNS_13unordered_setIP11objc_objectN2FB17AllocationTracker17ObjectHashFunctorENS9_18ObjectEqualFunctorENS_9allocatorIS7_EEEEED1Ev
+__ZNSt3__14pairIU8__strongKP10objc_classNS_13unordered_setIP11objc_objectN2FB17AllocationTracker17ObjectHashFunctorENS9_18ObjectEqualFunctorENS_9allocatorIS7_EEEEED2Ev
+__ZNSt3__113unordered_setIP11objc_objectN2FB17AllocationTracker17ObjectHashFunctorENS5_18ObjectEqualFunctorENS_9allocatorIS3_EEED1Ev
+__ZNSt3__113unordered_setIP11objc_objectN2FB17AllocationTracker17ObjectHashFunctorENS5_18ObjectEqualFunctorENS_9allocatorIS3_EEED2Ev
+__ZNK2FB17AllocationTracker17ObjectHashFunctorclEP11objc_object
+__ZNK2FB17AllocationTracker18ObjectEqualFunctorclEP11objc_objectS3_
+__ZNSt3__1L19piecewise_constructE
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBAllocationTracker/FBAllocationTracker/Generations/FBAllocationTrackerGeneration.mm
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBAllocationTracker
+~__split_buffer
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__split_buffer
+deallocate
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/memory
+__libcpp_deallocate
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/new
+capacity
+__end_cap
+first
+__get
+__alloc
+second
+clear
+__destruct_at_end
+destroy<id>
+__destroy<id>
+destroy
+__to_raw_pointer<id>
+__split_buffer
+allocate
+__allocate
+__throw_length_error
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/stdexcept
+length_error
+__compressed_pair<nullptr_t, std::__1::allocator<id> &>
+__compressed_pair_elem<std::__1::allocator<id> &, void>
+forward<std::__1::allocator<id> &>
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/type_traits
+__compressed_pair_elem<nullptr_t, void>
+forward<nullptr_t>
+max_size
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/vector
+min<unsigned long>
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/algorithm
+min<unsigned long, std::__1::__less<unsigned long, unsigned long> >
+operator()
+__max_size
+__swap_out_circular_buffer
+__annotate_new
+data
+size
+swap<__strong id *>
+move<__strong id *&>
+__construct_backward<__strong id *>
+construct<id, id>
+__construct<id, id>
+forward<id>
+move_if_noexcept<id>
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/utility
+move<__strong id &>
+__annotate_delete
+__push_back_slow_path<const __strong id &>
+construct<id, const __strong id &>
+__construct<id, const __strong id &>
+forward<const __strong id &>
+__recommend
+max<unsigned long>
+max<unsigned long, std::__1::__less<unsigned long, unsigned long> >
+find<Class>
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__hash_table
+end
+__hash_const_iterator
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/unordered_map
+__upcast
+pointer_to
+addressof<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > >, void *> *> >
+key_eq
+__hash
+__constrain_hash
+operator[]
+bucket_count
+get_deleter
+hash_function
+__rehash
+addressof<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<Class, long>, void *> *> >
+__ptr
+reset<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<Class, long>, void *> *> **>
+rehash
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/math.h
+max_load_factor
+__next_hash_pow2
+__clz
+__is_hash_power2
+__construct_node_hash<const std::__1::piecewise_construct_t &, std::__1::tuple<const __strong Class &>, std::__1::tuple<> >
+~unique_ptr
+reset
+destroy<std::__1::pair<const Class, long> >
+__destroy<std::__1::pair<const Class, long> >
+__get_ptr
+addressof<std::__1::pair<const Class, long> >
+operator->
+construct<std::__1::pair<const Class, long>, const std::__1::piecewise_construct_t &, std::__1::tuple<const __strong Class &>, std::__1::tuple<> >
+__construct<std::__1::pair<const Class, long>, const std::__1::piecewise_construct_t &, std::__1::tuple<const __strong Class &>, std::__1::tuple<> >
+pair<const __strong Class &>
+pair<const __strong Class &, 0>
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/tuple
+forward<const __strong Class &>
+get<0, const __strong Class &>
+get
+forward<std::__1::tuple<> >
+forward<std::__1::tuple<const __strong Class &> >
+forward<const std::__1::piecewise_construct_t &>
+unique_ptr<true, void>
+__compressed_pair<std::__1::__hash_node<std::__1::__hash_value_type<Class, long>, void *> *&, std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<std::__1::__hash_value_type<Class, long>, void *> > > >
+__compressed_pair_elem<std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<std::__1::__hash_value_type<Class, long>, void *> > >, void>
+forward<std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<std::__1::__hash_value_type<Class, long>, void *> > > >
+__compressed_pair_elem<std::__1::__hash_node<std::__1::__hash_value_type<Class, long>, void *> *&, void>
+forward<std::__1::__hash_node<std::__1::__hash_value_type<Class, long>, void *> *&>
+move<std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<std::__1::__hash_value_type<Class, long>, void *> > > &>
+__hash_node_destructor
+__node_alloc
+__compressed_pair<std::__1::__hash_node<__unsafe_unretained id, void *> *&, std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<__unsafe_unretained id, void *> > > >
+__compressed_pair_elem<std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<__unsafe_unretained id, void *> > >, void>
+forward<std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<__unsafe_unretained id, void *> > > >
+__compressed_pair_elem<std::__1::__hash_node<__unsafe_unretained id, void *> *&, void>
+forward<std::__1::__hash_node<__unsafe_unretained id, void *> *&>
+move<std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<__unsafe_unretained id, void *> > > &>
+addressof<std::__1::__hash_node_base<std::__1::__hash_node<__unsafe_unretained id, void *> *> >
+erase
+destroy<__unsafe_unretained id>
+addressof<id>
+operator++
+__hash_iterator
+find<__unsafe_unretained id>
+__erase_unique<__unsafe_unretained id>
+operator==
+reset<std::__1::__hash_node_base<std::__1::__hash_node<__unsafe_unretained id, void *> *> **>
+__construct_node_hash<const __unsafe_unretained id &>
+construct<__unsafe_unretained id, const __unsafe_unretained id &>
+__construct<__unsafe_unretained id, const __unsafe_unretained id &>
+forward<const __unsafe_unretained id &>
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBAllocationTracker/FBAllocationTracker/FBAllocationTrackerFunctors.h
+__deallocate_node
+~__hash_table
+~unordered_set
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/unordered_set
+~pair
+reset<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > >, void *> *> **>
+destroy<std::__1::pair<const Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > > >
+__destroy<std::__1::pair<const Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > > >
+addressof<std::__1::pair<const Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > > >
+construct<std::__1::pair<const Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > >, const std::__1::piecewise_construct_t &, std::__1::tuple<const __strong Class &>, std::__1::tuple<> >
+__construct<std::__1::pair<const Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > >, const std::__1::piecewise_construct_t &, std::__1::tuple<const __strong Class &>, std::__1::tuple<> >
+unordered_set
+__hash_table
+__compressed_pair<float, true>
+__compressed_pair_elem<float, void>
+forward<float>
+__compressed_pair<int, true>
+__compressed_pair_elem<int, void>
+forward<int>
+__compressed_pair<true, void>
+__compressed_pair_elem
+__hash_node_base
+__compressed_pair<std::__1::__hash_node_base<std::__1::__hash_node<__unsafe_unretained id, void *> *> **, true>
+__bucket_list_deallocator
+__compressed_pair_elem<std::__1::__hash_node_base<std::__1::__hash_node<__unsafe_unretained id, void *> *> **, void>
+forward<std::__1::__hash_node_base<std::__1::__hash_node<__unsafe_unretained id, void *> *> **>
+__compressed_pair<std::__1::__hash_node<std::__1::__hash_value_type<Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > >, void *> *&, std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<std::__1::__hash_value_type<Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > >, void *> > > >
+__compressed_pair_elem<std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<std::__1::__hash_value_type<Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > >, void *> > >, void>
+forward<std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<std::__1::__hash_value_type<Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > >, void *> > > >
+__compressed_pair_elem<std::__1::__hash_node<std::__1::__hash_value_type<Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > >, void *> *&, void>
+forward<std::__1::__hash_node<std::__1::__hash_value_type<Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > >, void *> *&>
+move<std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<std::__1::__hash_value_type<Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > >, void *> > > &>
+~__vector_base
+~vector
+~unordered_map
+instancesForClass
+push_back
+__RAII_IncreaseAnnotator
+operator*
+operator!=
+begin
+addressof<const std::__1::pair<const Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > > >
+addressof<const std::__1::__hash_value_type<Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > > >
+__hash_map_const_iterator
+find
+vector
+__vector_base
+__compressed_pair<nullptr_t, true>
+addressof<std::__1::__hash_value_type<Class, long> >
+__emplace_unique_key_args<Class, const std::__1::piecewise_construct_t &, std::__1::tuple<const __strong Class &>, std::__1::tuple<> >
+pair<std::__1::__hash_iterator<std::__1::__hash_node<std::__1::__hash_value_type<Class, long>, void *> *>, bool &, false>
+forward<bool &>
+forward<std::__1::__hash_iterator<std::__1::__hash_node<std::__1::__hash_value_type<Class, long>, void *> *> >
+release
+forward_as_tuple<const __strong Class &>
+tuple<true, false>
+__tuple_impl<0, const __strong Class &, const __strong Class &>
+__tuple_leaf<const __strong Class &, void>
+getSummary
+unordered_map
+__unordered_map_equal
+__unordered_map_hasher
+__compressed_pair<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<Class, long>, void *> *> **, true>
+__compressed_pair_elem<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<Class, long>, void *> *> **, void>
+forward<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<Class, long>, void *> *> **>
+addressof<std::__1::__hash_value_type<Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > > >
+pair<std::__1::__hash_iterator<std::__1::__hash_node<std::__1::__hash_value_type<Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > >, void *> *>, bool &, false>
+forward<std::__1::__hash_iterator<std::__1::__hash_node<std::__1::__hash_value_type<Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > >, void *> *> >
+add
+insert
+pair<std::__1::__hash_iterator<std::__1::__hash_node<__unsafe_unretained id, void *> *>, bool, false>
+forward<bool>
+forward<std::__1::__hash_iterator<std::__1::__hash_node<__unsafe_unretained id, void *> *> >
+__insert_unique
+__emplace_unique_key_args<__unsafe_unretained id, const __unsafe_unretained id &>
+pair<std::__1::__hash_iterator<std::__1::__hash_node<__unsafe_unretained id, void *> *>, bool &, false>
+__get_key
+-[FBAllocationTrackerManager init]
++[FBAllocationTrackerManager sharedManager]
+___43+[FBAllocationTrackerManager sharedManager]_block_invoke
+-[FBAllocationTrackerManager isAllocationTrackerEnabled]
+-[FBAllocationTrackerManager stopTrackingAllocations]
+-[FBAllocationTrackerManager startTrackingAllocations]
+-[FBAllocationTrackerManager enableGenerations]
+___47-[FBAllocationTrackerManager enableGenerations]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[FBAllocationTrackerManager disableGenerations]
+___48-[FBAllocationTrackerManager disableGenerations]_block_invoke
+___copy_helper_block_.5
+___destroy_helper_block_.6
+-[FBAllocationTrackerManager markGeneration]
+-[FBAllocationTrackerManager currentAllocationSummary]
+__ZNSt3__113unordered_mapIU8__strongP10objc_classN2FB17AllocationTracker18SingleClassSummaryENS5_16ClassHashFunctorENS5_17ClassEqualFunctorENS_9allocatorINS_4pairIU8__strongKS2_S6_EEEEED1Ev
+-[FBAllocationTrackerManager _getSingleGenerationSummary:]
+-[FBAllocationTrackerManager currentSummaryForGenerations]
+__ZNSt3__16vectorINS_13unordered_mapIU8__strongP10objc_classlN2FB17AllocationTracker16ClassHashFunctorENS6_17ClassEqualFunctorENS_9allocatorINS_4pairIU8__strongKS3_lEEEEEENS9_ISE_EEED1Ev
+-[FBAllocationTrackerManager instancesForClass:inGeneration:]
+-[FBAllocationTrackerManager instancesOfClasses:]
+-[FBAllocationTrackerManager trackedClasses]
+__ZNSt3__16vectorIP10objc_classNS_9allocatorIS3_EEED1Ev
+-[FBAllocationTrackerManager .cxx_destruct]
+__ZNSt3__113unordered_mapIU8__strongP10objc_classN2FB17AllocationTracker18SingleClassSummaryENS5_16ClassHashFunctorENS5_17ClassEqualFunctorENS_9allocatorINS_4pairIU8__strongKS2_S6_EEEEED2Ev
+__ZNSt3__14pairIU8__strongKP10objc_classN2FB17AllocationTracker18SingleClassSummaryEED1Ev
+__ZNSt3__14pairIU8__strongKP10objc_classN2FB17AllocationTracker18SingleClassSummaryEED2Ev
+__ZNSt3__16vectorINS_13unordered_mapIU8__strongP10objc_classlN2FB17AllocationTracker16ClassHashFunctorENS6_17ClassEqualFunctorENS_9allocatorINS_4pairIU8__strongKS3_lEEEEEENS9_ISE_EEED2Ev
+__ZNSt3__16vectorIP10objc_classNS_9allocatorIS3_EEED2Ev
+_OBJC_IVAR_$_FBAllocationTrackerManager._queue
+__ZZ43+[FBAllocationTrackerManager sharedManager]E13sharedManager
+__ZZ43+[FBAllocationTrackerManager sharedManager]E9onceToken
+___block_descriptor_tmp
+___block_literal_global
+_OBJC_IVAR_$_FBAllocationTrackerManager._generationsClients
+___block_descriptor_tmp.4
+___block_descriptor_tmp.7
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBAllocationTracker/FBAllocationTracker/FBAllocationTrackerManager.mm
+destroy<__unsafe_unretained Class>
+__destroy<__unsafe_unretained Class>
+__to_raw_pointer<__unsafe_unretained Class>
+destroy<std::__1::unordered_map<Class, long, FB::AllocationTracker::ClassHashFunctor, FB::AllocationTracker::ClassEqualFunctor, std::__1::allocator<std::__1::pair<const Class, long> > > >
+__destroy<std::__1::unordered_map<Class, long, FB::AllocationTracker::ClassHashFunctor, FB::AllocationTracker::ClassEqualFunctor, std::__1::allocator<std::__1::pair<const Class, long> > > >
+__to_raw_pointer<std::__1::unordered_map<Class, long, FB::AllocationTracker::ClassHashFunctor, FB::AllocationTracker::ClassEqualFunctor, std::__1::allocator<std::__1::pair<const Class, long> > > >
+destroy<std::__1::pair<const Class, FB::AllocationTracker::SingleClassSummary> >
+__destroy<std::__1::pair<const Class, FB::AllocationTracker::SingleClassSummary> >
+addressof<std::__1::pair<const Class, FB::AllocationTracker::SingleClassSummary> >
+addressof<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<Class, FB::AllocationTracker::SingleClassSummary>, void *> *> >
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iterator
+operator!=<std::__1::unordered_map<Class, long, FB::AllocationTracker::ClassHashFunctor, FB::AllocationTracker::ClassEqualFunctor, std::__1::allocator<std::__1::pair<const Class, long> > > *>
+operator==<std::__1::unordered_map<Class, long, FB::AllocationTracker::ClassHashFunctor, FB::AllocationTracker::ClassEqualFunctor, std::__1::allocator<std::__1::pair<const Class, long> > > *, std::__1::unordered_map<Class, long, FB::AllocationTracker::ClassHashFunctor, FB::AllocationTracker::ClassEqualFunctor, std::__1::allocator<std::__1::pair<const Class, long> > > *>
+base
+__make_iter
+__wrap_iter
+addressof<const std::__1::__hash_value_type<Class, long> >
+addressof<std::__1::__hash_value_type<Class, FB::AllocationTracker::SingleClassSummary> >
+__hash_map_iterator
+__destroy_helper_block_
+__copy_helper_block_
+__48-[FBAllocationTrackerManager disableGenerations]_block_invoke
+__47-[FBAllocationTrackerManager enableGenerations]_block_invoke
+__43+[FBAllocationTrackerManager sharedManager]_block_invoke
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/dispatch/once.h
+FBIsFBATEnabledInThisBuild
++[NSObject(FBAllocationTracker) fb_originalAlloc]
+-[NSObject(FBAllocationTracker) fb_originalDealloc]
++[NSObject(FBAllocationTracker) fb_newAlloc]
+-[NSObject(FBAllocationTracker) fb_newDealloc]
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBAllocationTracker/FBAllocationTracker/NSObject+FBAllocationTracker.mm
+__ZN2FB17AllocationTracker10GenerationC1Ev
+__ZN2FB17AllocationTracker10GenerationD1Ev
+__ZN2FB17AllocationTracker10GenerationC2Ev
+__ZN2FB17AllocationTracker10GenerationD2Ev
+__ZNSt3__113unordered_mapIU8__strongP10objc_classNS_13unordered_setIP11objc_objectN2FB17AllocationTracker17ObjectHashFunctorENS9_18ObjectEqualFunctorENS_9allocatorIS7_EEEENS9_16ClassHashFunctorENS9_17ClassEqualFunctorENSC_INS_4pairIU8__strongKS2_SE_EEEEED1Ev
+__ZNSt3__113unordered_mapIU8__strongP10objc_classNS_13unordered_setIP11objc_objectN2FB17AllocationTracker17ObjectHashFunctorENS9_18ObjectEqualFunctorENS_9allocatorIS7_EEEENS9_16ClassHashFunctorENS9_17ClassEqualFunctorENSC_INS_4pairIU8__strongKS2_SE_EEEEED2Ev
+__ZN2FB17AllocationTracker10GenerationC1EOS1_
+__ZN2FB17AllocationTracker10GenerationC2EOS1_
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBAllocationTracker/FBAllocationTracker/Generations/FBAllocationTrackerGenerationManager.mm
+__compressed_pair<nullptr_t, std::__1::allocator<std::__1::unordered_map<Class, long, FB::AllocationTracker::ClassHashFunctor, FB::AllocationTracker::ClassEqualFunctor, std::__1::allocator<std::__1::pair<const Class, long> > > > &>
+__compressed_pair_elem<std::__1::allocator<std::__1::unordered_map<Class, long, FB::AllocationTracker::ClassHashFunctor, FB::AllocationTracker::ClassEqualFunctor, std::__1::allocator<std::__1::pair<const Class, long> > > > &, void>
+forward<std::__1::allocator<std::__1::unordered_map<Class, long, FB::AllocationTracker::ClassHashFunctor, FB::AllocationTracker::ClassEqualFunctor, std::__1::allocator<std::__1::pair<const Class, long> > > > &>
+swap<std::__1::unordered_map<Class, long, FB::AllocationTracker::ClassHashFunctor, FB::AllocationTracker::ClassEqualFunctor, std::__1::allocator<std::__1::pair<const Class, long> > > *>
+move<std::__1::unordered_map<Class, long, FB::AllocationTracker::ClassHashFunctor, FB::AllocationTracker::ClassEqualFunctor, std::__1::allocator<std::__1::pair<const Class, long> > > *&>
+__construct_backward<std::__1::unordered_map<Class, long, FB::AllocationTracker::ClassHashFunctor, FB::AllocationTracker::ClassEqualFunctor, std::__1::allocator<std::__1::pair<const Class, long> > > *>
+construct<std::__1::unordered_map<Class, long, FB::AllocationTracker::ClassHashFunctor, FB::AllocationTracker::ClassEqualFunctor, std::__1::allocator<std::__1::pair<const Class, long> > >, std::__1::unordered_map<Class, long, FB::AllocationTracker::ClassHashFunctor, FB::AllocationTracker::ClassEqualFunctor, std::__1::allocator<std::__1::pair<const Class, long> > > >
+__construct<std::__1::unordered_map<Class, long, FB::AllocationTracker::ClassHashFunctor, FB::AllocationTracker::ClassEqualFunctor, std::__1::allocator<std::__1::pair<const Class, long> > >, std::__1::unordered_map<Class, long, FB::AllocationTracker::ClassHashFunctor, FB::AllocationTracker::ClassEqualFunctor, std::__1::allocator<std::__1::pair<const Class, long> > > >
+move<std::__1::__hash_table<std::__1::__hash_value_type<Class, long>, std::__1::__unordered_map_hasher<Class, std::__1::__hash_value_type<Class, long>, FB::AllocationTracker::ClassHashFunctor, true>, std::__1::__unordered_map_equal<Class, std::__1::__hash_value_type<Class, long>, FB::AllocationTracker::ClassEqualFunctor, true>, std::__1::allocator<std::__1::__hash_value_type<Class, long> > > &>
+forward<std::__1::unordered_map<Class, long, FB::AllocationTracker::ClassHashFunctor, FB::AllocationTracker::ClassEqualFunctor, std::__1::allocator<std::__1::pair<const Class, long> > > >
+move_if_noexcept<std::__1::unordered_map<Class, long, FB::AllocationTracker::ClassHashFunctor, FB::AllocationTracker::ClassEqualFunctor, std::__1::allocator<std::__1::pair<const Class, long> > > >
+move<std::__1::unordered_map<Class, long, FB::AllocationTracker::ClassHashFunctor, FB::AllocationTracker::ClassEqualFunctor, std::__1::allocator<std::__1::pair<const Class, long> > > &>
+move<std::__1::__compressed_pair<float, std::__1::__unordered_map_equal<Class, std::__1::__hash_value_type<Class, long>, FB::AllocationTracker::ClassEqualFunctor, true> > &>
+move<std::__1::__compressed_pair<unsigned long, std::__1::__unordered_map_hasher<Class, std::__1::__hash_value_type<Class, long>, FB::AllocationTracker::ClassHashFunctor, true> > &>
+move<std::__1::__compressed_pair<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<Class, long>, void *> *>, std::__1::allocator<std::__1::__hash_node<std::__1::__hash_value_type<Class, long>, void *> > > &>
+unique_ptr
+__compressed_pair<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<Class, long>, void *> *> **, std::__1::__bucket_list_deallocator<std::__1::allocator<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<Class, long>, void *> *> *> > >
+__compressed_pair_elem<std::__1::__bucket_list_deallocator<std::__1::allocator<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<Class, long>, void *> *> *> >, void>
+move<std::__1::__compressed_pair<unsigned long, std::__1::allocator<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<Class, long>, void *> *> *> > &>
+forward<std::__1::__bucket_list_deallocator<std::__1::allocator<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<Class, long>, void *> *> *> > >
+move<std::__1::unique_ptr<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<Class, long>, void *> *> *[], std::__1::__bucket_list_deallocator<std::__1::allocator<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<Class, long>, void *> *> *> > > &>
+__push_back_slow_path<std::__1::unordered_map<Class, long, FB::AllocationTracker::ClassHashFunctor, FB::AllocationTracker::ClassEqualFunctor, std::__1::allocator<std::__1::pair<const Class, long> > > >
+__compressed_pair<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained id, long>, void *> *&, std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained id, long>, void *> > > >
+__compressed_pair_elem<std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained id, long>, void *> > >, void>
+forward<std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained id, long>, void *> > > >
+__compressed_pair_elem<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained id, long>, void *> *&, void>
+forward<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained id, long>, void *> *&>
+move<std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained id, long>, void *> > > &>
+addressof<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained id, long>, void *> *> >
+destroy<std::__1::pair<const __unsafe_unretained id, long> >
+__destroy<std::__1::pair<const __unsafe_unretained id, long> >
+addressof<std::__1::pair<const __unsafe_unretained id, long> >
+reset<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained id, long>, void *> *> **>
+__construct_node_hash<const std::__1::piecewise_construct_t &, std::__1::tuple<const __unsafe_unretained id &>, std::__1::tuple<> >
+construct<std::__1::pair<const __unsafe_unretained id, long>, const std::__1::piecewise_construct_t &, std::__1::tuple<const __unsafe_unretained id &>, std::__1::tuple<> >
+__construct<std::__1::pair<const __unsafe_unretained id, long>, const std::__1::piecewise_construct_t &, std::__1::tuple<const __unsafe_unretained id &>, std::__1::tuple<> >
+pair<const __unsafe_unretained id &>
+pair<const __unsafe_unretained id &, 0>
+get<0, const __unsafe_unretained id &>
+forward<std::__1::tuple<const __unsafe_unretained id &> >
+destroy<FB::AllocationTracker::Generation>
+__destroy<FB::AllocationTracker::Generation>
+__to_raw_pointer<FB::AllocationTracker::Generation>
+__compressed_pair<nullptr_t, std::__1::allocator<FB::AllocationTracker::Generation> &>
+__compressed_pair_elem<std::__1::allocator<FB::AllocationTracker::Generation> &, void>
+forward<std::__1::allocator<FB::AllocationTracker::Generation> &>
+swap<FB::AllocationTracker::Generation *>
+move<FB::AllocationTracker::Generation *&>
+__construct_backward<FB::AllocationTracker::Generation *>
+construct<FB::AllocationTracker::Generation, FB::AllocationTracker::Generation>
+__construct<FB::AllocationTracker::Generation, FB::AllocationTracker::Generation>
+forward<FB::AllocationTracker::Generation>
+move_if_noexcept<FB::AllocationTracker::Generation>
+move<FB::AllocationTracker::Generation &>
+move<std::__1::__compressed_pair<float, std::__1::__unordered_map_equal<Class, std::__1::__hash_value_type<Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > >, FB::AllocationTracker::ClassEqualFunctor, true> > &>
+move<std::__1::__compressed_pair<unsigned long, std::__1::__unordered_map_hasher<Class, std::__1::__hash_value_type<Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > >, FB::AllocationTracker::ClassHashFunctor, true> > &>
+move<std::__1::__compressed_pair<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > >, void *> *>, std::__1::allocator<std::__1::__hash_node<std::__1::__hash_value_type<Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > >, void *> > > &>
+__compressed_pair<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > >, void *> *> **, std::__1::__bucket_list_deallocator<std::__1::allocator<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > >, void *> *> *> > >
+__compressed_pair_elem<std::__1::__bucket_list_deallocator<std::__1::allocator<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > >, void *> *> *> >, void>
+move<std::__1::__compressed_pair<unsigned long, std::__1::allocator<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > >, void *> *> *> > &>
+forward<std::__1::__bucket_list_deallocator<std::__1::allocator<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > >, void *> *> *> > >
+__compressed_pair_elem<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > >, void *> *> **, void>
+forward<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > >, void *> *> **>
+move<std::__1::unique_ptr<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > >, void *> *> *[], std::__1::__bucket_list_deallocator<std::__1::allocator<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > >, void *> *> *> > > &>
+Generation
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBAllocationTracker/FBAllocationTracker/Generations/FBAllocationTrackerGeneration.h
+move<std::__1::__hash_table<std::__1::__hash_value_type<Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > >, std::__1::__unordered_map_hasher<Class, std::__1::__hash_value_type<Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > >, FB::AllocationTracker::ClassHashFunctor, true>, std::__1::__unordered_map_equal<Class, std::__1::__hash_value_type<Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > >, FB::AllocationTracker::ClassEqualFunctor, true>, std::__1::allocator<std::__1::__hash_value_type<Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > > > > &>
+__emplace_back_slow_path<FB::AllocationTracker::Generation>
+~Generation
+__compressed_pair<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<Class, std::__1::unordered_set<__unsafe_unretained id, FB::AllocationTracker::ObjectHashFunctor, FB::AllocationTracker::ObjectEqualFunctor, std::__1::allocator<__unsafe_unretained id> > >, void *> *> **, true>
+instancesOfClassInLastGeneration
+instancesOfClassInGeneration
+summary
+operator!=<const FB::AllocationTracker::Generation *>
+operator==<const FB::AllocationTracker::Generation *, const FB::AllocationTracker::Generation *>
+removeObject
+addressof<std::__1::__hash_value_type<__unsafe_unretained id, long> >
+__emplace_unique_key_args<__unsafe_unretained id, const std::__1::piecewise_construct_t &, std::__1::tuple<const __unsafe_unretained id &>, std::__1::tuple<> >
+pair<std::__1::__hash_iterator<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained id, long>, void *> *>, bool &, false>
+forward<std::__1::__hash_iterator<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained id, long>, void *> *> >
+forward_as_tuple<const __unsafe_unretained id &>
+__tuple_impl<0, const __unsafe_unretained id &, const __unsafe_unretained id &>
+__tuple_leaf<const __unsafe_unretained id &, void>
+addObject
+back
+markGeneration
+emplace_back<FB::AllocationTracker::Generation>
+___cxx_global_var_init
+___cxx_global_var_init.1
+___cxx_global_var_init.2
+__ZN12_GLOBAL__N_114turnOnTrackingEv
+__ZN12_GLOBAL__N_115turnOffTrackingEv
+__ZN2FB17AllocationTrackerL19_isClassBlacklistedEP10objc_class
+__ZNSt3__113unordered_mapIP10objc_classmN2FB17AllocationTracker16ClassHashFunctorENS5_17ClassEqualFunctorENS_9allocatorINS_4pairIKS2_mEEEEED1Ev
+__ZNSt3__113unordered_setIP10objc_classN2FB17AllocationTracker16ClassHashFunctorENS5_17ClassEqualFunctorENS_9allocatorIS3_EEED1Ev
+__ZN2FB17AllocationTracker17GenerationManagerC1Ev
+__ZN2FB17AllocationTracker17GenerationManagerD1Ev
+__ZN2FB17AllocationTrackerL16_shouldOmitClassEP10objc_class
+__ZN12_GLOBAL__N_122prepareOriginalMethodsEv
+__ZN12_GLOBAL__N_127replaceSelectorWithSelectorEP10objc_classP13objc_selectorS3_12FBMethodType
+____ZN2FB17AllocationTrackerL19_isClassBlacklistedEP10objc_class_block_invoke
+__ZNSt3__113unordered_mapIP10objc_classmN2FB17AllocationTracker16ClassHashFunctorENS5_17ClassEqualFunctorENS_9allocatorINS_4pairIKS2_mEEEEED2Ev
+__ZNSt3__113unordered_setIP10objc_classN2FB17AllocationTracker16ClassHashFunctorENS5_17ClassEqualFunctorENS_9allocatorIS3_EEED2Ev
+__ZN2FB17AllocationTracker17GenerationManagerC2Ev
+__ZN2FB17AllocationTracker17GenerationManagerD2Ev
+__ZNSt3__16vectorIN2FB17AllocationTracker10GenerationENS_9allocatorIS3_EEED1Ev
+__ZNSt3__113unordered_mapIP11objc_objectlN2FB17AllocationTracker17ObjectHashFunctorENS5_18ObjectEqualFunctorENS_9allocatorINS_4pairIKS2_lEEEEED1Ev
+__ZNSt3__16vectorIN2FB17AllocationTracker10GenerationENS_9allocatorIS3_EEED2Ev
+__ZNSt3__113unordered_mapIP11objc_objectlN2FB17AllocationTracker17ObjectHashFunctorENS5_18ObjectEqualFunctorENS_9allocatorINS_4pairIKS2_lEEEEED2Ev
+__GLOBAL__sub_I_FBAllocationTrackerImpl.mm
+__ZN12_GLOBAL__N_1L12_allocationsE
+__ZN12_GLOBAL__N_1L14_deallocationsE
+__ZN12_GLOBAL__N_1L5_lockE
+__ZN12_GLOBAL__N_1L19_trackingInProgressE
+__ZN12_GLOBAL__N_1L18_generationManagerE
+__ZN12_GLOBAL__N_1L23_didCopyOriginalMethodsE
+__ZZN2FB17AllocationTrackerL19_isClassBlacklistedEP10objc_classE38blacklistedTaggedPointerContainerClass
+__ZZN2FB17AllocationTrackerL19_isClassBlacklistedEP10objc_classE9onceToken
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBAllocationTracker/FBAllocationTracker/FBAllocationTrackerImpl.mm
+_GLOBAL__sub_I_FBAllocationTrackerImpl.mm
+__push_back_slow_path<const __unsafe_unretained Class &>
+construct<__unsafe_unretained Class, const __unsafe_unretained Class &>
+__construct<__unsafe_unretained Class, const __unsafe_unretained Class &>
+forward<const __unsafe_unretained Class &>
+__compressed_pair<nullptr_t, std::__1::allocator<__unsafe_unretained Class> &>
+__compressed_pair_elem<std::__1::allocator<__unsafe_unretained Class> &, void>
+forward<std::__1::allocator<__unsafe_unretained Class> &>
+swap<__unsafe_unretained Class *>
+move<__unsafe_unretained Class *&>
+__construct_backward<__unsafe_unretained Class>
+__annotate_shrink
+__move_assign
+__move_assign_alloc
+move<std::__1::allocator<id> &>
+reset<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<Class, FB::AllocationTracker::SingleClassSummary>, void *> *> **>
+construct<std::__1::pair<const Class, FB::AllocationTracker::SingleClassSummary>, const std::__1::piecewise_construct_t &, std::__1::tuple<const __strong Class &>, std::__1::tuple<> >
+__construct<std::__1::pair<const Class, FB::AllocationTracker::SingleClassSummary>, const std::__1::piecewise_construct_t &, std::__1::tuple<const __strong Class &>, std::__1::tuple<> >
+__compressed_pair<std::__1::__hash_node<std::__1::__hash_value_type<Class, FB::AllocationTracker::SingleClassSummary>, void *> *&, std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<std::__1::__hash_value_type<Class, FB::AllocationTracker::SingleClassSummary>, void *> > > >
+__compressed_pair_elem<std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<std::__1::__hash_value_type<Class, FB::AllocationTracker::SingleClassSummary>, void *> > >, void>
+forward<std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<std::__1::__hash_value_type<Class, FB::AllocationTracker::SingleClassSummary>, void *> > > >
+__compressed_pair_elem<std::__1::__hash_node<std::__1::__hash_value_type<Class, FB::AllocationTracker::SingleClassSummary>, void *> *&, void>
+forward<std::__1::__hash_node<std::__1::__hash_value_type<Class, FB::AllocationTracker::SingleClassSummary>, void *> *&>
+move<std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<std::__1::__hash_value_type<Class, FB::AllocationTracker::SingleClassSummary>, void *> > > &>
+addressof<std::__1::__hash_node_base<std::__1::__hash_node<__unsafe_unretained Class, void *> *> >
+reset<std::__1::__hash_node_base<std::__1::__hash_node<__unsafe_unretained Class, void *> *> **>
+__construct_node_hash<const __unsafe_unretained Class &>
+addressof<Class>
+__compressed_pair<std::__1::__hash_node<__unsafe_unretained Class, void *> *&, std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<__unsafe_unretained Class, void *> > > >
+__compressed_pair_elem<std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<__unsafe_unretained Class, void *> > >, void>
+forward<std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<__unsafe_unretained Class, void *> > > >
+__compressed_pair_elem<std::__1::__hash_node<__unsafe_unretained Class, void *> *&, void>
+forward<std::__1::__hash_node<__unsafe_unretained Class, void *> *&>
+move<std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<__unsafe_unretained Class, void *> > > &>
+addressof<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, void *> *> >
+move<std::__1::__unordered_map_equal<__unsafe_unretained Class, std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, FB::AllocationTracker::ClassEqualFunctor, true> &>
+move<std::__1::__unordered_map_hasher<__unsafe_unretained Class, std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, FB::AllocationTracker::ClassHashFunctor, true> &>
+move<std::__1::allocator<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, void *> > &>
+move<std::__1::allocator<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, void *> *> *> &>
+reset<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, void *> *> **>
+__construct_node_hash<const std::__1::pair<const __unsafe_unretained Class, unsigned long> &>
+destroy<std::__1::pair<const __unsafe_unretained Class, unsigned long> >
+__destroy<std::__1::pair<const __unsafe_unretained Class, unsigned long> >
+addressof<std::__1::pair<const __unsafe_unretained Class, unsigned long> >
+construct<std::__1::pair<const __unsafe_unretained Class, unsigned long>, const std::__1::pair<const __unsafe_unretained Class, unsigned long> &>
+__construct<std::__1::pair<const __unsafe_unretained Class, unsigned long>, const std::__1::pair<const __unsafe_unretained Class, unsigned long> &>
+forward<const std::__1::pair<const __unsafe_unretained Class, unsigned long> &>
+__compressed_pair<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, void *> *&, std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, void *> > > >
+__compressed_pair_elem<std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, void *> > >, void>
+forward<std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, void *> > > >
+__compressed_pair_elem<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, void *> *&, void>
+forward<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, void *> *&>
+move<std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, void *> > > &>
+__compressed_pair<int, const std::__1::__unordered_map_hasher<__unsafe_unretained Class, std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, FB::AllocationTracker::ClassHashFunctor, true> &>
+__compressed_pair_elem<const std::__1::__unordered_map_hasher<__unsafe_unretained Class, std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, FB::AllocationTracker::ClassHashFunctor, true> &, void>
+forward<const std::__1::__unordered_map_hasher<__unsafe_unretained Class, std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, FB::AllocationTracker::ClassHashFunctor, true> &>
+__compressed_pair<std::__1::allocator<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, void *> > >
+__compressed_pair_elem<std::__1::allocator<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, void *> >, void>
+forward<std::__1::allocator<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, void *> > >
+select_on_container_copy_construction
+__select_on_container_copy_construction
+__compressed_pair<nullptr_t, std::__1::__bucket_list_deallocator<std::__1::allocator<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, void *> *> *> > >
+__compressed_pair_elem<std::__1::__bucket_list_deallocator<std::__1::allocator<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, void *> *> *> >, void>
+move<std::__1::__compressed_pair<unsigned long, std::__1::allocator<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, void *> *> *> > &>
+forward<std::__1::__bucket_list_deallocator<std::__1::allocator<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, void *> *> *> > >
+move<std::__1::__bucket_list_deallocator<std::__1::allocator<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, void *> *> *> > &>
+__compressed_pair<unsigned long &, const std::__1::allocator<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, void *> *> *> &>
+__compressed_pair_elem<const std::__1::allocator<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, void *> *> *> &, void>
+forward<const std::__1::allocator<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, void *> *> *> &>
+__compressed_pair_elem<unsigned long &, void>
+forward<unsigned long &>
+insert<std::__1::__hash_map_const_iterator<std::__1::__hash_const_iterator<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, void *> *> > >
+__emplace_unique_key_args<__unsafe_unretained Class, const std::__1::pair<const __unsafe_unretained Class, unsigned long> &>
+pair<std::__1::__hash_iterator<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, void *> *>, bool &, false>
+forward<std::__1::__hash_iterator<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, void *> *> >
+addressof<const std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long> >
+__construct_node_hash<const std::__1::piecewise_construct_t &, std::__1::tuple<const __unsafe_unretained Class &>, std::__1::tuple<> >
+construct<std::__1::pair<const __unsafe_unretained Class, unsigned long>, const std::__1::piecewise_construct_t &, std::__1::tuple<const __unsafe_unretained Class &>, std::__1::tuple<> >
+__construct<std::__1::pair<const __unsafe_unretained Class, unsigned long>, const std::__1::piecewise_construct_t &, std::__1::tuple<const __unsafe_unretained Class &>, std::__1::tuple<> >
+pair<const __unsafe_unretained Class &>
+pair<const __unsafe_unretained Class &, 0>
+get<0, const __unsafe_unretained Class &>
+forward<std::__1::tuple<const __unsafe_unretained Class &> >
+~GenerationManager
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBAllocationTracker/FBAllocationTracker/Generations/FBAllocationTrackerGenerationManager.h
+GenerationManager
+__compressed_pair<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained id, long>, void *> *> **, true>
+__compressed_pair_elem<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained id, long>, void *> *> **, void>
+forward<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained id, long>, void *> *> **>
+___ZN2FB17AllocationTrackerL19_isClassBlacklistedEP10objc_class_block_invoke
+replaceSelectorWithSelector
+prepareOriginalMethods
+reserve
+trackedClasses
+~lock_guard
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__mutex_base
+addressof<std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long> >
+lock_guard
+instancesOfClasses
+operator!=<__strong id *>
+operator==<__strong id *, __strong id *>
+operator=
+_shouldOmitClass
+instancesOfClassForGeneration
+generationSummary
+disableGenerations
+enableGenerations
+pair<std::__1::__hash_iterator<std::__1::__hash_node<std::__1::__hash_value_type<Class, FB::AllocationTracker::SingleClassSummary>, void *> *>, bool &, false>
+forward<std::__1::__hash_iterator<std::__1::__hash_node<std::__1::__hash_value_type<Class, FB::AllocationTracker::SingleClassSummary>, void *> *> >
+allocationTrackerSummary
+__compressed_pair<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<Class, FB::AllocationTracker::SingleClassSummary>, void *> *> **, true>
+__compressed_pair_elem<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<Class, FB::AllocationTracker::SingleClassSummary>, void *> *> **, void>
+forward<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<Class, FB::AllocationTracker::SingleClassSummary>, void *> *> **>
+pair<std::__1::__hash_iterator<std::__1::__hash_node<__unsafe_unretained Class, void *> *>, bool, false>
+forward<std::__1::__hash_iterator<std::__1::__hash_node<__unsafe_unretained Class, void *> *> >
+__emplace_unique_key_args<__unsafe_unretained Class, const __unsafe_unretained Class &>
+pair<std::__1::__hash_iterator<std::__1::__hash_node<__unsafe_unretained Class, void *> *>, bool &, false>
+__compressed_pair<std::__1::__hash_node_base<std::__1::__hash_node<__unsafe_unretained Class, void *> *> **, true>
+__compressed_pair_elem<std::__1::__hash_node_base<std::__1::__hash_node<__unsafe_unretained Class, void *> *> **, void>
+forward<std::__1::__hash_node_base<std::__1::__hash_node<__unsafe_unretained Class, void *> *> **>
+move<std::__1::__hash_table<std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, std::__1::__unordered_map_hasher<__unsafe_unretained Class, std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, FB::AllocationTracker::ClassHashFunctor, true>, std::__1::__unordered_map_equal<__unsafe_unretained Class, std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, FB::AllocationTracker::ClassEqualFunctor, true>, std::__1::allocator<std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long> > > &>
+__compressed_pair<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, void *> *> **, true>
+__compressed_pair_elem<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, void *> *> **, void>
+forward<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<__unsafe_unretained Class, unsigned long>, void *> *> **>
+incrementDeallocations
+__emplace_unique_key_args<__unsafe_unretained Class, const std::__1::piecewise_construct_t &, std::__1::tuple<const __unsafe_unretained Class &>, std::__1::tuple<> >
+forward_as_tuple<const __unsafe_unretained Class &>
+__tuple_impl<0, const __unsafe_unretained Class &, const __unsafe_unretained Class &>
+__tuple_leaf<const __unsafe_unretained Class &, void>
+_isClassBlacklisted
+incrementAllocations
+isTracking
+turnOffTracking
+endTracking
+turnOnTracking
+beginTracking
+__cxx_global_var_init.2
+mutex
+__cxx_global_var_init.1
+__cxx_global_var_init
+-[FBAllocationTrackerSummary initWithAllocations:deallocations:aliveObjects:className:instanceSize:]
+-[FBAllocationTrackerSummary allocations]
+-[FBAllocationTrackerSummary deallocations]
+-[FBAllocationTrackerSummary aliveObjects]
+-[FBAllocationTrackerSummary className]
+-[FBAllocationTrackerSummary instanceSize]
+-[FBAllocationTrackerSummary .cxx_destruct]
+_OBJC_IVAR_$_FBAllocationTrackerSummary._allocations
+_OBJC_IVAR_$_FBAllocationTrackerSummary._deallocations
+_OBJC_IVAR_$_FBAllocationTrackerSummary._aliveObjects
+_OBJC_IVAR_$_FBAllocationTrackerSummary._className
+_OBJC_IVAR_$_FBAllocationTrackerSummary._instanceSize
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBAllocationTracker/FBAllocationTracker/FBAllocationTrackerSummary.m
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBAllocationTracker/FBAllocationTracker/FBAllocationTrackerSummary.h
+/Users/hongyimin/Library/Caches/org.carthage.CarthageKit/DerivedData/9.3_9E145/FBAllocationTracker/0.1/Build/Intermediates.noindex/ArchiveIntermediates/FBAllocationTracker/IntermediateBuildFilesPath/FBAllocationTracker.build/Debug-iphoneos/FBAllocationTracker.build/DerivedSources/FBAllocationTracker_vers.c

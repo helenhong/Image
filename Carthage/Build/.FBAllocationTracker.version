@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "0.1",
+  "iOS" : [
+    {
+      "name" : "FBAllocationTracker",
+      "hash" : "28c6a9d1d519b8e95283b396b3ab22e927f24bbdb461d27887f056b887b3b88a"
+    }
+  ]
+}

@@ -21,6 +21,20 @@
     if (self) {
         _imageView = [[UIImageView alloc] initWithFrame:self.bounds];
         [self.contentView addSubview:_imageView];
+        
+        UIView *masksView = [[UIView alloc] initWithFrame:CGRectMake(0, self.bounds.size.height - 100, self.bounds.size.width, 100)];
+        masksView.backgroundColor = [UIColor blackColor];
+        
+        NSArray *locations = [NSArray arrayWithObjects:@(0.0),@(1.0),nil];
+        CAGradientLayer *gradientLayer = [CAGradientLayer layer];
+        gradientLayer.colors = @[(id)[[UIColor blackColor] colorWithAlphaComponent:0.0f].CGColor,
+                                 (id)[[UIColor blackColor] colorWithAlphaComponent:0.4f].CGColor];
+        gradientLayer.locations = locations;
+        gradientLayer.frame = masksView.bounds;
+        gradientLayer.startPoint = CGPointMake(0, 0);
+        gradientLayer.endPoint   = CGPointMake(0, 1);
+        masksView.layer.mask = gradientLayer;
+        [self.contentView addSubview:masksView];
     }
     return self;
 }
@@ -30,11 +44,26 @@
     if (self) {
         _imageView = [[UIImageView alloc] initWithFrame:self.bounds];
         [self.contentView addSubview:_imageView];
+        
+        UIView *masksView = [[UIView alloc] initWithFrame:CGRectMake(0, self.bounds.size.height - 100, self.bounds.size.width, 100)];
+        masksView.backgroundColor = [UIColor blackColor];
+        
+        NSArray *locations = [NSArray arrayWithObjects:@(0.0),@(1.0),nil];
+        CAGradientLayer *gradientLayer = [CAGradientLayer layer];
+        gradientLayer.colors = @[(id)[[UIColor blackColor] colorWithAlphaComponent:0.0f].CGColor,
+                                 (id)[[UIColor blackColor] colorWithAlphaComponent:0.4f].CGColor];
+        gradientLayer.locations = locations;
+        gradientLayer.frame = masksView.bounds;
+        gradientLayer.startPoint = CGPointMake(0, 0);
+        gradientLayer.endPoint   = CGPointMake(0, 1);
+        masksView.layer.mask = gradientLayer;
+        [self.contentView addSubview:masksView];
     }
     return self;
 }
 - (void)layoutSubviews
 {
+    [super layoutSubviews];
     _imageView.frame = self.contentView.bounds;
 }
 @end
@@ -83,6 +112,25 @@
     _pageControl = [[UIPageControl alloc] initWithFrame:CGRectMake(0, 0, 80, 28)];
     [self addSubview:_collectionView];
     [self addSubview:_pageControl];
+    
+    CATextLayer *textLayer = [CATextLayer layer];
+    textLayer.contentsScale = [UIScreen mainScreen].scale;
+    
+    textLayer.string = @"Hello~";
+    textLayer.frame = CGRectMake(0, 0, 100, 20.0); // text和label的边距有间距
+    
+    UIFont *font = [UIFont systemFontOfSize:17.0 weight:UIFontWeightMedium];
+    CFStringRef fontName = (__bridge CFStringRef)font.fontName;
+    CGFontRef fontRef =CGFontCreateWithFontName(fontName);
+    
+    textLayer.font = fontRef;
+    textLayer.fontSize = 17.0;
+    textLayer.alignmentMode = kCAAlignmentRight;
+    textLayer.foregroundColor = [UIColor blackColor].CGColor;//字体的颜色
+    
+    CFRelease(fontRef); //release
+    
+    [self.layer addSublayer:textLayer];
 }
 - (void)dealloc
 {
@@ -122,7 +170,7 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(nonnull NSIndexPath *)indexPath
 {
     HiImageScrollerCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"HiImageScrollerCell" forIndexPath:indexPath];
-    cell.imageView.image = [UIImage imageNamed:self.imageArr[indexPath.item]];
+    cell.imageView.image = self.imageArr[indexPath.item];
     return cell;
 }
 - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section

@@ -1,0 +1,439 @@
+BCSymbolMap Version: 2.0
+__GetBlockStrongLayout
+___FBGetBlockStrongReferences_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+__BlockClass
+____BlockClass_block_invoke
+____BlockClass_block_invoke_2
+___block_descriptor_tmp
+__BlockClass.onceToken
+__BlockClass.blockClass
+___block_descriptor_tmp.20
+___block_literal_global
+___block_descriptor_tmp.21
+___block_literal_global.22
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBRetainCycleDetector/FBRetainCycleDetector/Layout/Blocks/FBBlockStrongLayout.m
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBRetainCycleDetector
+___BlockClass_block_invoke_2
+___BlockClass_block_invoke
+_BlockClass
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/dispatch/once.h
+__destroy_helper_block_
+__copy_helper_block_
+__FBGetBlockStrongReferences_block_invoke
+_GetBlockStrongLayout
+FBObjectIsBlock
+FBGetBlockStrongReferences
+___cxx_global_var_init
+___cxx_global_var_init.1
+___cxx_global_var_init.2
+__ZNSt3__113unordered_setIPvNS_4hashIS1_EENS_8equal_toIS1_EENS_9allocatorIS1_EEED1Ev
++[FBAssociationManager hook]
+__ZN2FB18AssociationManagerL27fb_objc_setAssociatedObjectEP11objc_objectPvS2_22objc_AssociationPolicy
+__ZN2FB18AssociationManagerL31fb_objc_removeAssociatedObjectsEP11objc_object
++[FBAssociationManager unhook]
+__ZN2FB18AssociationManagerL7cleanUpEv
++[FBAssociationManager associationsForObject:]
+__ZNSt3__113unordered_setIPvNS_4hashIS1_EENS_8equal_toIS1_EENS_9allocatorIS1_EEED2Ev
+___clang_call_terminate
+__ZNSt3__121__murmur2_or_cityhashImLm64EEclEPKvm
+__ZNSt3__121__murmur2_or_cityhashImLm64EE18__hash_len_0_to_16EPKcm
+__ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_17_to_32EPKcm
+__ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_33_to_64EPKcm
+__ZNSt3__121__murmur2_or_cityhashImLm64EE13__hash_len_16Emm
+__ZNSt3__121__murmur2_or_cityhashImLm64EE29__weak_hash_len_32_with_seedsEPKcmm
+__ZNSt3__121__murmur2_or_cityhashImLm64EE8__rotateEmi
+__ZNSt3__121__murmur2_or_cityhashImLm64EE11__shift_mixEm
+__ZNSt3__121__murmur2_or_cityhashImLm64EE22__rotate_by_at_least_1Emi
+__ZNSt3__121__murmur2_or_cityhashImLm64EE29__weak_hash_len_32_with_seedsEmmmmmm
+__GLOBAL__sub_I_FBAssociationManager.mm
+__ZN2FB18AssociationManagerL15_associationMapE
+__ZN2FB18AssociationManagerL17_associationMutexE
+__ZN2FB18AssociationManagerL9hookMutexE
+__ZN2FB18AssociationManagerL32fb_orig_objc_setAssociatedObjectE
+__ZN2FB18AssociationManagerL36fb_orig_objc_removeAssociatedObjectsE
+__ZN2FB18AssociationManagerL9hookTakenE
+__ZNSt3__1L19piecewise_constructE
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBRetainCycleDetector/FBRetainCycleDetector/Associations/FBAssociationManager.mm
+_GLOBAL__sub_I_FBAssociationManager.mm
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__hash_table
+unique_ptr<true, void>
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/memory
+__compressed_pair<std::__1::__hash_node<std::__1::__hash_value_type<id, std::__1::unordered_set<void *, std::__1::hash<void *>, std::__1::equal_to<void *>, std::__1::allocator<void *> > *>, void *> *&, std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<std::__1::__hash_value_type<id, std::__1::unordered_set<void *, std::__1::hash<void *>, std::__1::equal_to<void *>, std::__1::allocator<void *> > *>, void *> > > >
+__compressed_pair_elem<std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<std::__1::__hash_value_type<id, std::__1::unordered_set<void *, std::__1::hash<void *>, std::__1::equal_to<void *>, std::__1::allocator<void *> > *>, void *> > >, void>
+forward<std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<std::__1::__hash_value_type<id, std::__1::unordered_set<void *, std::__1::hash<void *>, std::__1::equal_to<void *>, std::__1::allocator<void *> > *>, void *> > > >
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/type_traits
+__compressed_pair_elem<std::__1::__hash_node<std::__1::__hash_value_type<id, std::__1::unordered_set<void *, std::__1::hash<void *>, std::__1::equal_to<void *>, std::__1::allocator<void *> > *>, void *> *&, void>
+forward<std::__1::__hash_node<std::__1::__hash_value_type<id, std::__1::unordered_set<void *, std::__1::hash<void *>, std::__1::equal_to<void *>, std::__1::allocator<void *> > *>, void *> *&>
+move<std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<std::__1::__hash_value_type<id, std::__1::unordered_set<void *, std::__1::hash<void *>, std::__1::equal_to<void *>, std::__1::allocator<void *> > *>, void *> > > &>
+__hash_node_destructor
+__node_alloc
+second
+__get
+__upcast
+pointer_to
+addressof<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<id, std::__1::unordered_set<void *, std::__1::hash<void *>, std::__1::equal_to<void *>, std::__1::allocator<void *> > *>, void *> *> >
+size
+first
+operator[]
+__constrain_hash
+__hash
+__ptr
+bucket_count
+get_deleter
+erase
+~unique_ptr
+reset
+operator()
+deallocate
+__libcpp_deallocate
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/new
+destroy<std::__1::pair<const id, std::__1::unordered_set<void *, std::__1::hash<void *>, std::__1::equal_to<void *>, std::__1::allocator<void *> > *> >
+__destroy<std::__1::pair<const id, std::__1::unordered_set<void *, std::__1::hash<void *>, std::__1::equal_to<void *>, std::__1::allocator<void *> > *> >
+__get_ptr
+addressof<std::__1::pair<const id, std::__1::unordered_set<void *, std::__1::hash<void *>, std::__1::equal_to<void *>, std::__1::allocator<void *> > *> >
+operator++
+__hash_iterator
+__rehash
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/functional
+addressof<std::__1::__hash_node_base<std::__1::__hash_node<void *, void *> *> >
+key_eq
+reset<std::__1::__hash_node_base<std::__1::__hash_node<void *, void *> *> **>
+__alloc
+allocate
+__allocate
+__throw_length_error
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/stdexcept
+length_error
+rehash
+max<unsigned long>
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/algorithm
+max<unsigned long, std::__1::__less<unsigned long, unsigned long> >
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/math.h
+max_load_factor
+__next_hash_pow2
+__clz
+__is_hash_power2
+__construct_node_hash<void *const &>
+destroy<void *>
+addressof<void *>
+operator->
+construct<void *, void *const &>
+__construct<void *, void *const &>
+forward<void *const &>
+__compressed_pair<std::__1::__hash_node<void *, void *> *&, std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<void *, void *> > > >
+__compressed_pair_elem<std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<void *, void *> > >, void>
+forward<std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<void *, void *> > > >
+__compressed_pair_elem<std::__1::__hash_node<void *, void *> *&, void>
+forward<std::__1::__hash_node<void *, void *> *&>
+move<std::__1::__hash_node_destructor<std::__1::allocator<std::__1::__hash_node<void *, void *> > > &>
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/unordered_map
+reset<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<id, std::__1::unordered_set<void *, std::__1::hash<void *>, std::__1::equal_to<void *>, std::__1::allocator<void *> > *>, void *> *> **>
+__construct_node_hash<const std::__1::piecewise_construct_t &, std::__1::tuple<const id &>, std::__1::tuple<> >
+construct<std::__1::pair<const id, std::__1::unordered_set<void *, std::__1::hash<void *>, std::__1::equal_to<void *>, std::__1::allocator<void *> > *>, const std::__1::piecewise_construct_t &, std::__1::tuple<const id &>, std::__1::tuple<> >
+__construct<std::__1::pair<const id, std::__1::unordered_set<void *, std::__1::hash<void *>, std::__1::equal_to<void *>, std::__1::allocator<void *> > *>, const std::__1::piecewise_construct_t &, std::__1::tuple<const id &>, std::__1::tuple<> >
+pair<const id &>
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/utility
+pair<const id &, 0>
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/tuple
+forward<const id &>
+get<0, const id &>
+get
+forward<std::__1::tuple<> >
+forward<std::__1::tuple<const id &> >
+forward<const std::__1::piecewise_construct_t &>
+find<void *>
+end
+hash_function
+__weak_hash_len_32_with_seeds
+pair<unsigned long, unsigned long, false>
+forward<unsigned long>
+__rotate_by_at_least_1
+__shift_mix
+__rotate
+__loadword<unsigned long>
+__hash_len_16
+__hash_len_33_to_64
+__hash_len_17_to_32
+__hash_len_0_to_16
+__loadword<unsigned int>
+swap<unsigned long>
+move<unsigned long &>
+operator=
+find<id>
+__deallocate_node
+clear
+~__hash_table
+~unordered_set
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/unordered_set
+cleanUp
+~lock_guard
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__mutex_base
+lock_guard
+fb_objc_removeAssociatedObjects
+fb_objc_setAssociatedObject
+associations
+operator*
+operator!=
+operator==
+__hash_const_iterator
+begin
+addressof<std::__1::__hash_value_type<id, std::__1::unordered_set<void *, std::__1::hash<void *>, std::__1::equal_to<void *>, std::__1::allocator<void *> > *> >
+__hash_map_iterator
+find
+_threadUnsafeRemoveAssociations
+__emplace_unique_key_args<id, const std::__1::piecewise_construct_t &, std::__1::tuple<const id &>, std::__1::tuple<> >
+pair<std::__1::__hash_iterator<std::__1::__hash_node<std::__1::__hash_value_type<id, std::__1::unordered_set<void *, std::__1::hash<void *>, std::__1::equal_to<void *>, std::__1::allocator<void *> > *>, void *> *>, bool &, false>
+forward<bool &>
+forward<std::__1::__hash_iterator<std::__1::__hash_node<std::__1::__hash_value_type<id, std::__1::unordered_set<void *, std::__1::hash<void *>, std::__1::equal_to<void *>, std::__1::allocator<void *> > *>, void *> *> >
+release
+forward_as_tuple<const id &>
+tuple<true, false>
+__tuple_impl<0, const id &, const id &>
+__tuple_leaf<const id &, void>
+_threadUnsafeSetStrongAssociation
+insert
+pair<std::__1::__hash_iterator<std::__1::__hash_node<void *, void *> *>, bool, false>
+forward<bool>
+forward<std::__1::__hash_iterator<std::__1::__hash_node<void *, void *> *> >
+__insert_unique
+__emplace_unique_key_args<void *, void *const &>
+pair<std::__1::__hash_iterator<std::__1::__hash_node<void *, void *> *>, bool &, false>
+__get_key
+unordered_set
+__hash_table
+__compressed_pair<float, true>
+__compressed_pair_elem<float, void>
+forward<float>
+__compressed_pair<int, true>
+__compressed_pair_elem<int, void>
+forward<int>
+__compressed_pair<true, void>
+__compressed_pair_elem
+__hash_node_base
+__compressed_pair<std::__1::__hash_node_base<std::__1::__hash_node<void *, void *> *> **, true>
+__bucket_list_deallocator
+__compressed_pair_elem<std::__1::__hash_node_base<std::__1::__hash_node<void *, void *> *> **, void>
+forward<std::__1::__hash_node_base<std::__1::__hash_node<void *, void *> *> **>
+_threadUnsafeResetAssociationAtKey
+__cxx_global_var_init.2
+mutex
+__cxx_global_var_init.1
+__cxx_global_var_init
+unordered_map
+__unordered_map_equal
+__unordered_map_hasher
+__compressed_pair<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<id, std::__1::unordered_set<void *, std::__1::hash<void *>, std::__1::equal_to<void *>, std::__1::allocator<void *> > *>, void *> *> **, true>
+__compressed_pair_elem<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<id, std::__1::unordered_set<void *, std::__1::hash<void *>, std::__1::equal_to<void *>, std::__1::allocator<void *> > *>, void *> *> **, void>
+forward<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<id, std::__1::unordered_set<void *, std::__1::hash<void *>, std::__1::equal_to<void *>, std::__1::allocator<void *> > *>, void *> *> **>
+-[FBParsedType initWithName:typeEncoding:]
+-[FBParsedType passTypePath:]
+-[FBParsedType name]
+-[FBParsedType typeEncoding]
+-[FBParsedType typePath]
+-[FBParsedType setTypePath:]
+-[FBParsedType .cxx_destruct]
+_OBJC_IVAR_$_FBParsedType._name
+_OBJC_IVAR_$_FBParsedType._typeEncoding
+_OBJC_IVAR_$_FBParsedType._typePath
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBRetainCycleDetector/FBRetainCycleDetector/Layout/Classes/Parser/FBParsedType.m
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBRetainCycleDetector/FBRetainCycleDetector/Layout/Classes/Parser/FBParsedType.h
+-[FBBlockStrongRelationDetector release]
+-[FBBlockStrongRelationDetector retain]
++[FBBlockStrongRelationDetector alloc]
+_byref_keep_nop
+_byref_dispose_nop
+-[FBBlockStrongRelationDetector trueRelease]
+-[FBBlockStrongRelationDetector isStrong]
+-[FBBlockStrongRelationDetector setStrong:]
+_OBJC_IVAR_$_FBBlockStrongRelationDetector._strong
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBRetainCycleDetector/FBRetainCycleDetector/Layout/Blocks/FBBlockStrongRelationDetector.m
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBRetainCycleDetector/FBRetainCycleDetector/Layout/Blocks/FBBlockStrongRelationDetector.h
+byref_dispose_nop
+byref_keep_nop
+-[FBObjectGraphConfiguration initWithFilterBlocks:shouldInspectTimers:]
+-[FBObjectGraphConfiguration init]
+-[FBObjectGraphConfiguration filterBlocks]
+-[FBObjectGraphConfiguration shouldInspectTimers]
+-[FBObjectGraphConfiguration .cxx_destruct]
+_OBJC_IVAR_$_FBObjectGraphConfiguration._filterBlocks
+_OBJC_IVAR_$_FBObjectGraphConfiguration._shouldInspectTimers
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBRetainCycleDetector/FBRetainCycleDetector/Graph/FBObjectGraphConfiguration.m
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBRetainCycleDetector/FBRetainCycleDetector/Graph/FBObjectGraphConfiguration.h
+-[FBRetainCycleDetector initWithConfiguration:]
+-[FBRetainCycleDetector init]
+-[FBRetainCycleDetector addCandidate:]
+-[FBRetainCycleDetector findRetainCycles]
+-[FBRetainCycleDetector findRetainCyclesWithMaxCycleLength:]
+-[FBRetainCycleDetector _findRetainCyclesInObject:stackDepth:]
+-[FBRetainCycleDetector _unwrapCycle:]
+-[FBRetainCycleDetector _shiftToUnifiedCycle:]
+-[FBRetainCycleDetector _extractClassNamesFromGraphObjects:]
+-[FBRetainCycleDetector _shiftToLowestLexicographically:]
+-[FBRetainCycleDetector _compareStringArray:withArray:]
+-[FBRetainCycleDetector _shiftBufferToLowestAddress:]
+-[FBRetainCycleDetector .cxx_destruct]
+_OBJC_IVAR_$_FBRetainCycleDetector._configuration
+_OBJC_IVAR_$_FBRetainCycleDetector._candidates
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBRetainCycleDetector/FBRetainCycleDetector/Detector/FBRetainCycleDetector.mm
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+-[FBObjectInStructReference initWithIndex:namePath:]
+-[FBObjectInStructReference description]
+-[FBObjectInStructReference objectReferenceFromObject:]
+-[FBObjectInStructReference indexInIvarLayout]
+-[FBObjectInStructReference namePath]
+-[FBObjectInStructReference .cxx_destruct]
+_OBJC_IVAR_$_FBObjectInStructReference._index
+_OBJC_IVAR_$_FBObjectInStructReference._namePath
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_FBObjectReference
+l_OBJC_LABEL_PROTOCOL_$_FBObjectReference
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBRetainCycleDetector/FBRetainCycleDetector/Layout/Classes/Reference/FBObjectInStructReference.m
+_rcd_prepend_rebindings
+_rebind_symbols_for_image
+__rebind_symbols_for_image
+_rcd_perform_rebinding_with_section
+__rebindings_head
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBRetainCycleDetector/fishhook/fishhook.c
+rcd_perform_rebinding_with_section
+rcd_rebind_symbols
+rebind_symbols_for_image
+rcd_prepend_rebindings
+rcd_rebind_symbols_image
+___FBFilterBlockWithObjectToManyIvarsRelation_block_invoke
+___FBFilterBlockWithObjectIvarObjectRelation_block_invoke
+___copy_helper_block_.11
+___destroy_helper_block_.12
+___FBGetStandardGraphEdgeFilters_block_invoke
+___block_descriptor_tmp.14
+__ZZ29FBGetStandardGraphEdgeFiltersE15heldActionClass
+__ZZ29FBGetStandardGraphEdgeFiltersE22transitionContextClass
+__ZZ29FBGetStandardGraphEdgeFiltersE9onceToken
+___block_descriptor_tmp.16
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBRetainCycleDetector/FBRetainCycleDetector/Filtering/FBStandardGraphEdgeFilters.mm
+__FBGetStandardGraphEdgeFilters_block_invoke
+FBGetStandardGraphEdgeFilters
+__FBFilterBlockWithObjectIvarObjectRelation_block_invoke
+FBFilterBlockWithObjectIvarObjectRelation
+__FBFilterBlockWithObjectToManyIvarsRelation_block_invoke
+FBFilterBlockWithObjectToManyIvarsRelation
+FBFilterBlockWithObjectIvarRelation
+-[FBNodeEnumerator initWithObject:]
+-[FBNodeEnumerator nextObject]
+-[FBNodeEnumerator isEqual:]
+-[FBNodeEnumerator hash]
+-[FBNodeEnumerator object]
+-[FBNodeEnumerator .cxx_destruct]
+_OBJC_IVAR_$_FBNodeEnumerator._object
+_OBJC_IVAR_$_FBNodeEnumerator._retainedObjectsSnapshot
+_OBJC_IVAR_$_FBNodeEnumerator._enumerator
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBRetainCycleDetector/FBRetainCycleDetector/Detector/FBNodeEnumerator.mm
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBRetainCycleDetector/FBRetainCycleDetector/Detector/FBNodeEnumerator.h
+_FBGetReferencesForObjectsInStructEncoding
+_FBGetStrongReferencesForClass
+_objc_exception_rethrow
+___FBGetStrongReferencesForClass_block_invoke
+_FBGetMinimumIvarIndex
+_FBGetLayoutAsIndexesForDescription
+___FBGetStrongReferencesForClass_block_invoke_2
+___block_descriptor_tmp.57
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBRetainCycleDetector/FBRetainCycleDetector/Layout/Classes/FBClassStrongLayout.m
+__FBGetStrongReferencesForClass_block_invoke_2
+FBGetLayoutAsIndexesForDescription
+FBGetMinimumIvarIndex
+__FBGetStrongReferencesForClass_block_invoke
+FBGetStrongReferencesForClass
+FBGetObjectStrongReferences
+FBGetReferencesForObjectsInStructEncoding
+FBGetClassReferences
+__ZL31_ParseStructEncodingWithScannerP9NSScanner
+__ZN18_StructParseResultD1Ev
+____ZL31_ParseStructEncodingWithScannerP9NSScanner_block_invoke
+__ZN18_StructParseResultD2Ev
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBRetainCycleDetector/FBRetainCycleDetector/Layout/Classes/Parser/FBStructEncodingParser.mm
+~_StructParseResult
+___ZL31_ParseStructEncodingWithScannerP9NSScanner_block_invoke
+_ParseStructEncodingWithScanner
+FBParseStructEncodingWithName
+FBParseStructEncoding
+-[FBParsedStruct initWithName:typeEncoding:structTypeName:typesContainedInStruct:]
+-[FBParsedStruct flattenTypes]
+-[FBParsedStruct passTypePath:]
+-[FBParsedStruct structTypeName]
+-[FBParsedStruct typesContainedInStruct]
+-[FBParsedStruct .cxx_destruct]
+_OBJC_IVAR_$_FBParsedStruct._structTypeName
+_OBJC_IVAR_$_FBParsedStruct._typesContainedInStruct
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBRetainCycleDetector/FBRetainCycleDetector/Layout/Classes/Parser/FBParsedStruct.m
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBRetainCycleDetector/FBRetainCycleDetector/Layout/Classes/Parser/FBParsedStruct.h
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBRetainCycleDetector/FBRetainCycleDetector/FBRetainCycleUtils.m
+FBWrapObjectGraphElement
+FBWrapObjectGraphElementWithContext
+-[FBObjectiveCNSCFTimer allRetainedObjects]
+__ZN22_FBNSCFTimerInfoStructC1ERKS_
+__ZN22_FBNSCFTimerInfoStructD1Ev
+__ZN22_FBNSCFTimerInfoStructC2ERKS_
+__ZN22_FBNSCFTimerInfoStructD2Ev
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBRetainCycleDetector/FBRetainCycleDetector/Graph/Specialization/FBObjectiveCNSCFTimer.mm
+~
+_ZN22_FBNSCFTimerInfoStructC2ERKS_
+_ZN22_FBNSCFTimerInfoStructC1ERKS_
+-[FBObjectiveCObject allRetainedObjects]
+-[FBObjectiveCObject _unfilteredRetainedObjects]
+-[FBObjectiveCObject _objectRetainsEnumerableValues]
+-[FBObjectiveCObject _objectRetainsEnumerableKeys]
+l_OBJC_PROTOCOL_$_NSFastEnumeration
+l_OBJC_LABEL_PROTOCOL_$_NSFastEnumeration
+l_OBJC_PROTOCOL_REFERENCE_$_NSFastEnumeration
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBRetainCycleDetector/FBRetainCycleDetector/Graph/FBObjectiveCObject.m
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBRetainCycleDetector/FBRetainCycleDetector/Layout/Classes/FBClassStrongLayoutHelpers.m
+FBExtractObjectByOffset
+-[FBIvarReference initWithIvar:]
+-[FBIvarReference _convertEncodingToType:]
+-[FBIvarReference description]
+-[FBIvarReference indexInIvarLayout]
+-[FBIvarReference objectReferenceFromObject:]
+-[FBIvarReference namePath]
+-[FBIvarReference name]
+-[FBIvarReference type]
+-[FBIvarReference offset]
+-[FBIvarReference index]
+-[FBIvarReference ivar]
+-[FBIvarReference .cxx_destruct]
+_OBJC_IVAR_$_FBIvarReference._name
+_OBJC_IVAR_$_FBIvarReference._type
+_OBJC_IVAR_$_FBIvarReference._offset
+_OBJC_IVAR_$_FBIvarReference._index
+_OBJC_IVAR_$_FBIvarReference._ivar
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBRetainCycleDetector/FBRetainCycleDetector/Layout/Classes/Reference/FBIvarReference.m
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBRetainCycleDetector/FBRetainCycleDetector/Layout/Classes/Reference/FBIvarReference.h
+-[FBObjectiveCBlock allRetainedObjects]
+-[FBObjectiveCBlock _unfilteredRetainedObjects]
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBRetainCycleDetector/FBRetainCycleDetector/Graph/FBObjectiveCBlock.m
+-[FBObjectiveCGraphElement initWithObject:]
+-[FBObjectiveCGraphElement initWithObject:configuration:]
+-[FBObjectiveCGraphElement initWithObject:configuration:namePath:]
+-[FBObjectiveCGraphElement allRetainedObjects]
+-[FBObjectiveCGraphElement filterObjects:]
+-[FBObjectiveCGraphElement _shouldBreakGraphEdgeFromObject:toObject:]
+-[FBObjectiveCGraphElement isEqual:]
+-[FBObjectiveCGraphElement hash]
+-[FBObjectiveCGraphElement description]
+-[FBObjectiveCGraphElement objectAddress]
+-[FBObjectiveCGraphElement classNameOrNull]
+-[FBObjectiveCGraphElement objectClass]
+-[FBObjectiveCGraphElement namePath]
+-[FBObjectiveCGraphElement object]
+-[FBObjectiveCGraphElement setObject:]
+-[FBObjectiveCGraphElement configuration]
+-[FBObjectiveCGraphElement .cxx_destruct]
+_OBJC_IVAR_$_FBObjectiveCGraphElement._object
+_OBJC_IVAR_$_FBObjectiveCGraphElement._namePath
+_OBJC_IVAR_$_FBObjectiveCGraphElement._configuration
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBRetainCycleDetector/FBRetainCycleDetector/Graph/FBObjectiveCGraphElement.m
+/Users/hongyimin/Desktop/My_Project/Image/Carthage/Checkouts/FBRetainCycleDetector/FBRetainCycleDetector/Graph/FBObjectiveCGraphElement.h
+/Users/hongyimin/Library/Caches/org.carthage.CarthageKit/DerivedData/9.3_9E145/FBRetainCycleDetector/0.1/Build/Intermediates.noindex/ArchiveIntermediates/FBRetainCycleDetector/IntermediateBuildFilesPath/FBRetainCycleDetector.build/Debug-iphoneos/FBRetainCycleDetector.build/DerivedSources/FBRetainCycleDetector_vers.c
