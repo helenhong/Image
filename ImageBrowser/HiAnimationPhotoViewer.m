@@ -7,6 +7,9 @@
 //
 
 #import "HiAnimationPhotoViewer.h"
+#import "PhotoViewController.h"
+#import "PNavigationDelegateImpl.h"
+#import "PTransitionAnimation.h"
 
 @interface HiAnimationPhotoCell : UICollectionViewCell
 
@@ -37,6 +40,9 @@
 
 @interface HiAnimationPhotoViewer () <UICollectionViewDelegateFlowLayout>
 
+@property (nonatomic, strong) PNavigationDelegateImpl *implDelegate;
+
+@property (nonatomic, strong) PTransitionAnimation *pAnimator;
 @end
 
 @implementation HiAnimationPhotoViewer
@@ -53,6 +59,11 @@ static NSString * const reuseIdentifier = @"Cell";
     [self.collectionView registerClass:[HiAnimationPhotoCell class] forCellWithReuseIdentifier:reuseIdentifier];
     
     // Do any additional setup after loading the view.
+    
+    self.implDelegate = [[PNavigationDelegateImpl alloc] init];
+    self.pAnimator = [[PTransitionAnimation alloc] init];
+    self.implDelegate.animator = self.pAnimator;
+    self.navigationController.delegate = self.implDelegate;
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -95,6 +106,22 @@ static NSString * const reuseIdentifier = @"Cell";
 }
 
 #pragma mark <UICollectionViewDelegate>
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    HiAnimationPhotoCell *cell = (HiAnimationPhotoCell *)[self collectionView:self.collectionView cellForItemAtIndexPath:indexPath];
+    
+    CGRect rectInCollectionView = [collectionView convertRect:cell.frame toView:self.collectionView];
+    CGRect rectInView = [collectionView convertRect:rectInCollectionView toView:self.view];
+    
+    self.pAnimator.startframe = rectInView;
+    self.pAnimator.image = self.imageArr[indexPath.item];
+    
+    PhotoViewController *photo = [[PhotoViewController alloc] initWithImage:self.imageArr[indexPath.item]];
+    [self.navigationController pushViewController:photo animated:YES];
+}
+
+
 
 /*
 // Uncomment this method to specify if the specified item should be highlighted during tracking

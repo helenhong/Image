@@ -75,8 +75,6 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSLog(@"didSelectRowAtIndexPath %@",indexPath);
-    
     switch (indexPath.row) {
         case 0:
             [self jumpToPhotoViewer];
@@ -103,7 +101,7 @@
     layout.itemSize = CGSizeMake(width, width);
     
     HiAnimationPhotoViewer *photoViewr = [[HiAnimationPhotoViewer alloc] initWithCollectionViewLayout:layout];
-    photoViewr.imageArr = [NSArray arrayWithObjects:[UIImage imageNamed:@"image0.jpg"],
+    photoViewr.imageArr = [NSArray arrayWithObjects:[UIImage imageNamed:@"image0"],
                            [UIImage imageNamed:@"image1.jpg"],
                            [UIImage imageNamed:@"image2.jpg"],
                            [UIImage imageNamed:@"image3.jpg"],

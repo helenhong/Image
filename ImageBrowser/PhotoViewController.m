@@ -16,13 +16,13 @@
 
 @implementation PhotoViewController
 {
-    UIImageView *_centerImageView;
+    UIImage* _centerImageView;
 }
 - (instancetype)initWithImage:(UIImage *)image
 {
     self = [super init];
     if (self ) {
-        _centerImageView.image = image;
+        _centerImageView = image;
     }
     return self;
 }
@@ -30,10 +30,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor blackColor];
     
-    _centerImageView.backgroundColor = [UIColor darkGrayColor];
-    _centerImageView = [[UIImageView alloc] initWithFrame:self.view.bounds];
-    _centerImageView.contentMode = UIViewContentModeScaleAspectFit;
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:self.view.bounds];
+    imageView.backgroundColor = [UIColor clearColor];
+    imageView.contentMode = UIViewContentModeScaleAspectFit;
+    imageView.image = _centerImageView;
+    
+    [self.view addSubview:imageView];
     
 }
 

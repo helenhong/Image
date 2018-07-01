@@ -29,6 +29,8 @@
 		2E8C0F9420E391F500EC4BDD /* FBMemoryProfiler.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2E8C0F8620E390DB00EC4BDD /* FBMemoryProfiler.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2E8C0F9520E391F500EC4BDD /* FBRetainCycleDetector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E8C0F8720E390DB00EC4BDD /* FBRetainCycleDetector.framework */; };
 		2E8C0F9620E391F500EC4BDD /* FBRetainCycleDetector.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2E8C0F8720E390DB00EC4BDD /* FBRetainCycleDetector.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FD4A776C20E793A100466104 /* PTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4A776B20E793A100466104 /* PTransitionAnimation.m */; };
+		FD4A776F20E7A1DB00466104 /* PNavigationDelegateImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4A776E20E7A1DB00466104 /* PNavigationDelegateImpl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,10 @@
 		2E8C0F8520E390DB00EC4BDD /* FBAllocationTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBAllocationTracker.framework; path = ImageBrowser/FBAllocationTracker.framework; sourceTree = "<group>"; };
 		2E8C0F8620E390DB00EC4BDD /* FBMemoryProfiler.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBMemoryProfiler.framework; path = ImageBrowser/FBMemoryProfiler.framework; sourceTree = "<group>"; };
 		2E8C0F8720E390DB00EC4BDD /* FBRetainCycleDetector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBRetainCycleDetector.framework; path = ImageBrowser/FBRetainCycleDetector.framework; sourceTree = "<group>"; };
+		FD4A776A20E793A100466104 /* PTransitionAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTransitionAnimation.h; sourceTree = "<group>"; };
+		FD4A776B20E793A100466104 /* PTransitionAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTransitionAnimation.m; sourceTree = "<group>"; };
+		FD4A776D20E7A1DB00466104 /* PNavigationDelegateImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNavigationDelegateImpl.h; sourceTree = "<group>"; };
+		FD4A776E20E7A1DB00466104 /* PNavigationDelegateImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNavigationDelegateImpl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,24 +150,24 @@
 		2E4990EB1EC2E6C400DC920D /* ImageBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				FD4A777820E7E0A500466104 /* TransitionAnimation */,
+				FD4A777720E7E07100466104 /* ImageScroller */,
 				2E19816420303C75003FAD15 /* Resources */,
 				2E4990EF1EC2E6C500DC920D /* AppDelegate.h */,
 				2E4990F01EC2E6C500DC920D /* AppDelegate.m */,
 				2E4990F21EC2E6C500DC920D /* ViewController.h */,
 				2E4990F31EC2E6C500DC920D /* ViewController.m */,
+				2E3408B520E65688005578BA /* AnimationDisplayController.h */,
+				2E3408B620E65688005578BA /* AnimationDisplayController.m */,
+				2E3408AF20E6241A005578BA /* HiAnimationPhotoViewer.h */,
+				2E3408B020E6241A005578BA /* HiAnimationPhotoViewer.m */,
+				2E3408B220E65458005578BA /* PhotoViewController.h */,
+				2E3408B320E65458005578BA /* PhotoViewController.m */,
 				2E4990F51EC2E6C500DC920D /* Main.storyboard */,
 				2E4990F81EC2E6C500DC920D /* Assets.xcassets */,
 				2E4990FA1EC2E6C500DC920D /* LaunchScreen.storyboard */,
 				2E4990FD1EC2E6C500DC920D /* Info.plist */,
 				2E4990EC1EC2E6C500DC920D /* Supporting Files */,
-				2E5980BB20301F67007E880A /* HiImageScroller.h */,
-				2E5980BC20301F67007E880A /* HiImageScroller.m */,
-				2E3408AF20E6241A005578BA /* HiAnimationPhotoViewer.h */,
-				2E3408B020E6241A005578BA /* HiAnimationPhotoViewer.m */,
-				2E3408B220E65458005578BA /* PhotoViewController.h */,
-				2E3408B320E65458005578BA /* PhotoViewController.m */,
-				2E3408B520E65688005578BA /* AnimationDisplayController.h */,
-				2E3408B620E65688005578BA /* AnimationDisplayController.m */,
 			);
 			path = ImageBrowser;
 			sourceTree = "<group>";
@@ -191,6 +197,26 @@
 				2E8C0F8720E390DB00EC4BDD /* FBRetainCycleDetector.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD4A777720E7E07100466104 /* ImageScroller */ = {
+			isa = PBXGroup;
+			children = (
+				2E5980BB20301F67007E880A /* HiImageScroller.h */,
+				2E5980BC20301F67007E880A /* HiImageScroller.m */,
+			);
+			path = ImageScroller;
+			sourceTree = "<group>";
+		};
+		FD4A777820E7E0A500466104 /* TransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				FD4A776A20E793A100466104 /* PTransitionAnimation.h */,
+				FD4A776B20E793A100466104 /* PTransitionAnimation.m */,
+				FD4A776D20E7A1DB00466104 /* PNavigationDelegateImpl.h */,
+				FD4A776E20E7A1DB00466104 /* PNavigationDelegateImpl.m */,
+			);
+			path = TransitionAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +331,8 @@
 				2E4990F41EC2E6C500DC920D /* ViewController.m in Sources */,
 				2E3408B120E6241A005578BA /* HiAnimationPhotoViewer.m in Sources */,
 				2E4990F11EC2E6C500DC920D /* AppDelegate.m in Sources */,
+				FD4A776F20E7A1DB00466104 /* PNavigationDelegateImpl.m in Sources */,
+				FD4A776C20E793A100466104 /* PTransitionAnimation.m in Sources */,
 				2E3408B420E65458005578BA /* PhotoViewController.m in Sources */,
 				2E5980BD20301F67007E880A /* HiImageScroller.m in Sources */,
 				2E4990EE1EC2E6C500DC920D /* main.m in Sources */,
