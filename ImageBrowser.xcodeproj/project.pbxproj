@@ -22,6 +22,7 @@
 		2E4990F91EC2E6C500DC920D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E4990F81EC2E6C500DC920D /* Assets.xcassets */; };
 		2E4990FC1EC2E6C500DC920D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E4990FA1EC2E6C500DC920D /* LaunchScreen.storyboard */; };
 		2E4991071EC2E6C500DC920D /* ImageBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4991061EC2E6C500DC920D /* ImageBrowserTests.m */; };
+		2E51CDC223798B45008BF5F1 /* AnimateLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E51CDC023798B45008BF5F1 /* AnimateLabelView.m */; };
 		2E5980BD20301F67007E880A /* HiImageScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5980BC20301F67007E880A /* HiImageScroller.m */; };
 		2E8C0F9120E391F500EC4BDD /* FBAllocationTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E8C0F8520E390DB00EC4BDD /* FBAllocationTracker.framework */; };
 		2E8C0F9220E391F500EC4BDD /* FBAllocationTracker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2E8C0F8520E390DB00EC4BDD /* FBAllocationTracker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -84,6 +85,8 @@
 		2E4991021EC2E6C500DC920D /* ImageBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E4991061EC2E6C500DC920D /* ImageBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageBrowserTests.m; sourceTree = "<group>"; };
 		2E4991081EC2E6C500DC920D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E51CDC023798B45008BF5F1 /* AnimateLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimateLabelView.m; sourceTree = "<group>"; };
+		2E51CDC123798B45008BF5F1 /* AnimateLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimateLabelView.h; sourceTree = "<group>"; };
 		2E5980BB20301F67007E880A /* HiImageScroller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HiImageScroller.h; sourceTree = "<group>"; };
 		2E5980BC20301F67007E880A /* HiImageScroller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiImageScroller.m; sourceTree = "<group>"; };
 		2E8C0F8520E390DB00EC4BDD /* FBAllocationTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBAllocationTracker.framework; path = ImageBrowser/FBAllocationTracker.framework; sourceTree = "<group>"; };
@@ -150,6 +153,8 @@
 		2E4990EB1EC2E6C400DC920D /* ImageBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				2E51CDC123798B45008BF5F1 /* AnimateLabelView.h */,
+				2E51CDC023798B45008BF5F1 /* AnimateLabelView.m */,
 				FD4A777820E7E0A500466104 /* TransitionAnimation */,
 				FD4A777720E7E07100466104 /* ImageScroller */,
 				2E19816420303C75003FAD15 /* Resources */,
@@ -334,6 +339,7 @@
 				FD4A776F20E7A1DB00466104 /* PNavigationDelegateImpl.m in Sources */,
 				FD4A776C20E793A100466104 /* PTransitionAnimation.m in Sources */,
 				2E3408B420E65458005578BA /* PhotoViewController.m in Sources */,
+				2E51CDC223798B45008BF5F1 /* AnimateLabelView.m in Sources */,
 				2E5980BD20301F67007E880A /* HiImageScroller.m in Sources */,
 				2E4990EE1EC2E6C500DC920D /* main.m in Sources */,
 			);

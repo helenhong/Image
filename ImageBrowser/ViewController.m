@@ -10,6 +10,7 @@
 #import "HiImageScroller.h"
 #import "HiAnimationPhotoViewer.h"
 #import "AnimationDisplayController.h"
+#import "AnimateLabelView.h"
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) HiImageScroller *advBanner;
@@ -25,9 +26,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    //获取状态栏的rect
+    CGRect statusRect = [[UIApplication sharedApplication] statusBarFrame];
+    
+    //获取导航栏的rect
+    CGRect navRect = self.navigationController.navigationBar.frame;
+    
     // inscrollerable Header
-    /*
-    self.advBanner = [[HiImageScroller alloc] initWithFrame:CGRectMake(0, 64, self.view.frame.size.width, 200)];
+    CGFloat topHeight = statusRect.size.height+navRect.size.height;
+    
+    self.advBanner = [[HiImageScroller alloc] initWithFrame:CGRectMake(0, topHeight, self.view.frame.size.width, 200)];
     self.advBanner.images = [NSArray arrayWithObjects:[UIImage imageNamed:@"image0.jpg"],
                                [UIImage imageNamed:@"image1.jpg"],
                                [UIImage imageNamed:@"image2.jpg"],
@@ -36,12 +44,16 @@
                                nil];
     self.advBanner.timeInterval = 2.5f;
      [self.view addSubview:self.advBanner];
-     */
-    
     // inscrollerable Header
     
-    self.dataArr = @[[NSString stringWithFormat:@"%@", [HiAnimationPhotoViewer class]], [NSString stringWithFormat:@"%@", [AnimationDisplayController class]]];
-    self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds];
+    AnimatableLabelView *animatableLabel = [[AnimatableLabelView alloc] initWithFrame:CGRectMake((self.view.frame.size.width - 100) / 2.0, topHeight, 100, 20) Titles:@[@"Hello",@"World !"]];
+    animatableLabel.textAlignment = NSTextAlignmentCenter;
+    [animatableLabel start];
+    [self.view addSubview:animatableLabel];
+    
+    self.dataArr = @[[NSString stringWithFormat:@"%@", [HiAnimationPhotoViewer class]],
+                     [NSString stringWithFormat:@"%@", [AnimationDisplayController class]]];
+    self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, self.advBanner.frame.origin.y + self.advBanner.frame.size.height, self.view.frame.size.width, self.view.frame.size.height - self.advBanner.frame.size.height - self.advBanner.frame.origin.y)];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];

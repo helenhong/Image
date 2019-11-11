@@ -125,12 +125,15 @@
     
     textLayer.font = fontRef;
     textLayer.fontSize = 17.0;
-    textLayer.alignmentMode = kCAAlignmentRight;
+    textLayer.alignmentMode = kCAAlignmentCenter;
     textLayer.foregroundColor = [UIColor blackColor].CGColor;//字体的颜色
     
     CFRelease(fontRef); //release
     
-    [self.layer addSublayer:textLayer];
+    UIView *textView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 20)];
+    [self addSubview:textView];
+    
+    [textView.layer addSublayer:textLayer];
 }
 - (void)dealloc
 {
